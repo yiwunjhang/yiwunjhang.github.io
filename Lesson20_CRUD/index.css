@@ -1,0 +1,46 @@
+* {
+    margin: 2px;
+    padding: 2px;
+
+}
+body {
+    font-size: 12px;
+    text-align: center;
+
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+
+input {
+    color: olive;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: burlywood;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+    text-justify:distribute
+}
+.add-btn {
+    width: 100%;
+}
+.delete-btn {
+    margin: 4px 8px;
+    background-color: rgb(160, 80, 80);
+
+}
+
+.edit-btn {
+    margin: 4px 8px;
+    color: rgb(216, 207, 188);
+    background-color: olive;
+
+}
