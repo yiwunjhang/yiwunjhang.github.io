@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    175deg,
+    #f3ece4 40%,
+    #FFF 40%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  color: #FFF;
+  max-width: 500px;
+  height: 520px;
+  margin: auto;
+  padding-top: 8px;
+  border-radius: 10px;
+  background-color: #e1d3af;
+  box-shadow: #333333 0 0 40 50;
+}
+
+.container-background {
+  background-color: #eae0d0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.form-control:focus {
+  border-color:#c4d7a4 !important;
+  box-shadow:0 0 0 0.25rem rgba(130, 135, 75, 0.25) !important;
+}
